@@ -2,8 +2,7 @@
 小瞳 Work 安装包与自动更新资源
 # 小瞳 Work
 
-小瞳 Work 是基于 [Proma](https://github.com/proma-ai/Proma) fork 改造的团队专属 AI 桌面 Agent，面向科学城（广州）数字科技集团有限公司同事，用于日常办公、知识处理与复杂任务协作。
-
+小瞳 Work 是基于 [Proma](https://github.com/proma-ai/Proma) fork 改造的团队专属 AI 桌面 Agent
 ## 现在能做什么
 
 - **Chat 模式**：支持多模型对话、附件解析、图片输入、Markdown、Mermaid、KaTeX、代码高亮、并排对话、系统提示词和上下文管理。
