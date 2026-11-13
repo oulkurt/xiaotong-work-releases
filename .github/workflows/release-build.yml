@@ -1,0 +1,11 @@
+name: Release build availability
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  availability:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check public release build runner
+        run: echo 'Public release build runner is available'
