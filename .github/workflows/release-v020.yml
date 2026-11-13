@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: oulkurt/xiaotong-work
-          ref: 2d4b9d29af8748885ef32eeda3f16d2ca2b2eaaa
+          ref: d61eb7354f7f628e54a1611c1b9372b8b3a47383
           ssh-key: ${{ secrets.TEMP_V020_SOURCE_SSH_KEY }}
           persist-credentials: false
       - name: 正式版本从公开 Release 顺延
@@ -70,7 +70,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: oulkurt/xiaotong-work
-          ref: 2d4b9d29af8748885ef32eeda3f16d2ca2b2eaaa
+          ref: d61eb7354f7f628e54a1611c1b9372b8b3a47383
           ssh-key: ${{ secrets.TEMP_V020_SOURCE_SSH_KEY }}
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
@@ -235,7 +235,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: oulkurt/xiaotong-work
-          ref: 2d4b9d29af8748885ef32eeda3f16d2ca2b2eaaa
+          ref: d61eb7354f7f628e54a1611c1b9372b8b3a47383
           ssh-key: ${{ secrets.TEMP_V020_SOURCE_SSH_KEY }}
           persist-credentials: false
       - name: 校验完整资产清单后公开发布
@@ -267,7 +267,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: oulkurt/xiaotong-work
-          ref: 2d4b9d29af8748885ef32eeda3f16d2ca2b2eaaa
+          ref: d61eb7354f7f628e54a1611c1b9372b8b3a47383
           ssh-key: ${{ secrets.TEMP_V020_SOURCE_SSH_KEY }}
           persist-credentials: false
       - uses: oven-sh/setup-bun@v2
